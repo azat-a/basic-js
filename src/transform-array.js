@@ -3,13 +3,13 @@ module.exports = function transform(arr) {
     throw new TypeError;
   }
 
-  console.log(arr);
+  //console.log(arr + '\n');
 
   const transformedArr = [];
   for (let i = 0; i < arr.length; i += 1) {
     if (arr[i] === "--double-prev") {
       if (transformedArr.length > 0) {
-        transformedArr.push(transformedArr[i - 1]);
+        transformedArr.push(transformedArr[transformedArr.length - 1]);
       }
       continue;
     }
