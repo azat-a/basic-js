@@ -2,7 +2,7 @@
   "name": "basic-js",
   "version": "1.0.0",
   "description": "Tasks for RSS",
-  "main": "index.js",
+  "main": "test.js",
   "directories": {
     "test": "test"
   },
